@@ -1,0 +1,52 @@
+.Implement .content-text {
+    margin-top: 319px;
+    margin-left: 139px;
+    width: 407px;
+    height: 184px;
+}
+
+.Implement .content-text .title {
+    width: 300px;
+    height: 28px;
+    color: #373737;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Implement .content-text .text {
+    margin-top: 20px;
+    width: 407px;
+    height: 60px;
+    color: #4E4E4E;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Implement #button-learn-more {
+    clear: both;
+    margin-top: 30px;
+    width: 180px;
+    height: 46px;
+    color: white;
+    background-color: #00AFDB;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Implement #button-learn-more:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+
+.Implement .content-image {
+    width: 407px;
+    height: 582px;
+    margin-top: 120px;
+    margin-left: 269px;
+}

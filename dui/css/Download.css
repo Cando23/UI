@@ -1,0 +1,79 @@
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    width: 403px;
+}  
+.buttons .left{
+    display: flex;
+    width: 186px;
+}   
+.buttons .right {
+    margin-left: 30px;
+    display: flex;
+    width: 186px;
+}
+.img-button{
+    width: 59px;
+    height: 46px;
+    background-repeat: no-repeat;
+}
+.buttons #apple{
+    background-image: url("../images/apple.svg");
+}
+
+.left:hover > .button {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+.right:hover > .button {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+.left:hover > .img-button {
+    cursor: pointer;
+}
+.right:hover > .img-button {
+    cursor: pointer;
+}
+.buttons #android{
+    background-image: url("../images/android.svg");
+}
+.button{
+    text-transform: uppercase;
+    width: 127px;
+    height: 46px;
+    background-color: #00AFDB;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.Download .content-text {
+    display: flex;
+    width: 480px;
+    flex-direction: column;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.Download .content-text .title {
+    width: 251px;
+    height: 28px;
+    color: #373737;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.Download .content-text .text {
+    margin-top:20px;
+    height: 40px;
+    color: #4E4E4E;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="controls-field">
+        <div class="controls">
+            <div class="control-item">
+                <input class="color" type="color" id="penColor" value="#000000">
+                <span class="control-text">Pen color</span>
+            </div>
+            <div class="control-item">
+                <input class="color" type="color" id="bucketColor" value="#FFFFFF">
+                <span class="control-text">Fill color</span>
+            </div>
+            <div class="control-item" id="pencil">
+                <img src="images/pencil.svg" class="control-images">
+                <span class="control-text">Pencil</span>
+            </div>
+            <div class="control-item" id="bucket">
+                <img src="images/bucket.svg" class="control-images">
+                <span class="control-text">Bucket</span>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="control-item2" id="size_4">
+                <span>4x4</span>
+            </div>
+            <div class="control-item2" id="size_16">
+                <span>16x16</span>
+            </div>
+            <div class="control-item2" id="size_32">
+                <span>32x32</span>
+            </div>
+        </div>
+    </div>
+    <div class="draw-field">
+        <canvas id="canvas" width="512" height="512"></canvas>
+    </div>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

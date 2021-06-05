@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+#canvas {
+    border-style: solid;
+}
+
+body {
+    width: 1200px;
+    height: 660px;
+    display: flex;
+}
+
+.draw-field {
+    width: 900px;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls-field {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.controls {
+    display: flex;
+    width: 200px;
+    margin: 50px 0px;
+    flex-direction: column;
+    border: outset;
+}
+
+input[type="color" i]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.controls .color {
+    background-color: white;
+    margin: 10px 10px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.control-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.control-item-gray {
+    background-color: gray;
+}
+
+.control-item:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.control-item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-bottom: solid 1px gray;
+}
+
+.control-item2:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.control-item2:last-child {
+    border-bottom: unset;
+}
+
+.control-images {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px;
+}
+
+.control-text {
+    margin: 10px 10px;
+}

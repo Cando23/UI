@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="update">
+                <button class="small-button" id="button-update"></button>
+                <button class="small-button" id="button-celsius"></button>
+            </div>
+            <div class="search">
+                <input type="text" id="city-input" name="сity" required>
+                <button class="big-button" id="button-search">Поиск</button>
+            </div>
+        </header>
+        <div class="weather">
+            <div class="city-date"><span id="city"></span><span id="date-time"></span></div>
+            <div class="weather_today">
+                <div class="temperature">
+                    <span id="today-temperature"></span>
+                </div>
+                <iframe id="today-image"></iframe>
+                <div class="weather_summary">
+                    <span id="description"></span>
+                    <span id="feels-like"></span>
+                    <span id="wind"></span>
+                    <span id="humidity"></span>
+                </div>
+            </div>
+            <div class="weather_forecast">
+                <div class="day_forecast">
+                    <span id="next_day_1" class="next_day"></span>
+                    <div class="row">
+                        <span id="next_day_temperature_1" class="next_day_temperature"></span>
+                        <iframe id="next_day_image_1" class="next_day_image"></iframe>
+                    </div>
+                </div>
+                <div class="day_forecast">
+                    <span id="next_day_2" class="next_day"></span>
+                    <div class="row">
+                        <span id="next_day_temperature_2" class="next_day_temperature"></span>
+                        <iframe id="next_day_image_2" class="next_day_image"></iframe>
+                    </div>
+                </div>
+                <div class="day_forecast">
+                    <span id="next_day_3" class="next_day"></span>
+                    <div class="row">
+                        <span id="next_day_temperature_3" class="next_day_temperature"></span>
+                        <iframe id="next_day_image_3" class="next_day_image"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/getJson.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/bg.js"></script>
+    <script src="scripts/load.js"></script>
+    <script src="scripts/dateTime.js"></script>
+</body>
+
+</html>

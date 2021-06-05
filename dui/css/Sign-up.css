@@ -1,0 +1,42 @@
+.Sign-up .title {
+    margin-left: 13px;
+    width: 381px;
+    height: 28px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Sign-up .input-form {
+    margin-top: 30px;
+    width: 406px;
+    height: 46px;
+    display: flex;
+}
+.Sign-up .contact{
+    margin-top: 200px;
+}
+
+.Sign-up .submit-input {
+    width: 66px;
+    height: 46px;
+    background-color: #00AFDB;
+    background-image: url(../images/check-icon.svg);
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Sign-up .submit-input:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+.Sign-up .email-input {
+    padding-left: 24px;
+    width: 340px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 20px;
+}

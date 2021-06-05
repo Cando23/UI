@@ -1,0 +1,31 @@
+.Rappresent .content-text {    
+    margin-top: 295px;
+    margin-left: 269px;
+}
+
+.Rappresent .content-text .title {
+    width: 370px;
+    height: 57px;
+    color:#373737;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.Rappresent .content-text .text {
+    margin-top: 20px;
+    width: 407px;
+    height: 80px;
+    color:#4E4E4E;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Rappresent .block-image{
+    margin-left: 248px;  
+    margin-top: 121px;
+    height: 582px;
+    width: 407px;
+}

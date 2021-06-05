@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 1600px;
+    height: 4105px;
+    font-family: "Roboto";
+}
+.button-get-started {
+    clear: both;
+    margin-top: 30px;
+    text-transform: uppercase;
+    width: 184px;
+    height: 46px;
+    background-color: #00AFDB;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+.button-get-started:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+.First-layer {
+    height: 744px;
+    background-image: url("../images/bg-image.png");
+    background-size: contain;
+}
+header {
+    height: 95px;
+    display: flex;  
+}
+.Rappresent {
+    height: 842px;
+    display: flex;
+}
+.Our-Community{
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    background: #F5F6F7;
+}
+.Implement{
+    height: 842px;
+    display: flex;
+}
+.Sign-up{
+    height: 524px;
+    background-image: url("../images/bg-image2.png");
+    display: flex;
+    justify-content: center;
+}
+.Download{
+    height: 464px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #F5F6F7;
+}
+footer{
+    height: 185px;
+    display: flex;
+    background: #000000;
+}
